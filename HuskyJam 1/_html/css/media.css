@@ -1,0 +1,218 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.header .button_green,
+.header .button_orang,
+.header .button_blue,
+.header .button_purpur {
+    font-size: 20px;
+}
+.iconset i.my {
+   font-size: 31px;
+   text-align: center;
+}
+.header .iconset p {
+  margin-top: 15px;
+	text-align: center;
+	padding: 0 8px;
+}
+.header h2,
+.header h3 {
+	text-align: center;
+} 
+.tabs {
+  margin: 0 auto;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.owl-nav div {
+    top: 100px;
+}
+.header .button_green {
+    font-size: 20px;
+}
+.iconset i.my {
+   font-size: 34px;
+   text-align: center;
+}
+.header .iconset p {
+  margin-top: 15px;
+	text-align: center;
+	padding: 0 8px;
+}
+.content p {
+  text-align: center;
+}
+.content a {
+  margin: 0 38%;
+}
+.footer_content {
+	text-align: center;
+}
+.header h2,
+.header h3 {
+	text-align: center;
+}
+.tabs {
+  margin: 0 36%;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+.owl-nav div {
+    top: 40px;
+}
+.iconset i.my {
+   font-size: 34px;
+   text-align: center;
+}
+.header .iconset p {
+  font-size: 16px;
+}
+.content p {
+  text-align: center;
+}
+.content a {
+  margin: 0 38%;
+}
+.footer_content {
+	text-align: center;
+}
+.header h2,
+.header h3 {
+	text-align: center;
+}
+.tabs {
+  margin: 0 27%;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.owl-nav div {
+    top: 40px;
+}
+.header .iconset p {
+  font-size: 12px;
+}
+.iconset i.my {
+   font-size: 34px;
+   text-align: center;
+   padding-right: 0px;
+}
+.content p {
+  text-align: center;
+}
+.content a {
+  margin: 0 32%;
+}
+.footer_content {
+	text-align: center;
+}
+.header h2,
+.header h3 {
+	text-align: center;
+}
+.tabs {
+  margin: 0 20%;
+}
+.bottom_orang,
+.bottom_blue,
+.bottom_purpur,
+.bottom_green {
+	font-size: 18px;
+	padding-left: 10px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.owl-nav div {
+    top: 27px;   
+}
+.header .iconset p {
+  font-size: 12px;
+}
+.iconset i.my {
+   font-size: 20px;
+   text-align: center;
+   padding-right: 0;
+}
+.content p {
+  text-align: center;
+}
+.content a {
+  margin: 0 29%;
+}
+.footer_content {
+	text-align: center;
+}
+.header h2,
+.header h3 {
+	text-align: center;
+}
+.tabs {
+  margin: 0 20%;
+}
+.bottom_orang,
+.bottom_blue,
+.bottom_purpur,
+.bottom_green {
+	font-size: 16px;
+	padding-left: 10px;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

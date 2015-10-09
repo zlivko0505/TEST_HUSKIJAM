@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+    font-family: "GloberThin";
+    src: url("../fonts/GloberThin/GloberThin.eot");
+    src: url("../fonts/GloberThin/GloberThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GloberThin/GloberThin.woff") format("woff"),
+    url("../fonts/GloberThin/GloberThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GloberBold";
+    src: url("../fonts/GloberBold/GloberBold.eot");
+    src: url("../fonts/GloberBold/GloberBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GloberBold/GloberBold.woff") format("woff"),
+    url("../fonts/GloberBold/GloberBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
